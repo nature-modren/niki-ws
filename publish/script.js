@@ -32,18 +32,6 @@ window.onload = function () {
     });
 
   document
-    .getElementById("tautan2")
-    .addEventListener("click", function (event) {
-      event.preventDefault();
-
-      closingwindow();
-
-      setTimeout(function () {
-        window.location.href = "koleksi.html";
-      }, 1000);
-    });
-
-  document
     .getElementById("tautan3")
     .addEventListener("click", function (event) {
       event.preventDefault();
@@ -56,7 +44,7 @@ window.onload = function () {
     });
 };
 
-const text = "Hai semua saya Amri Firdaus,seorang Web developer";
+const text = " Halo semua saya niki wulan sari ,seorang photograper";
 let index = 0;
 let speedketik = 100;
 
